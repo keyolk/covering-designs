@@ -1,62 +1,75 @@
 # Covering design records
 
-New upper bounds for seven covering numbers C(v,k,t), found on 2026-11-27 by Chanhun Jeong.
+New upper bounds for 26 covering numbers C(v,k,t), found on 2026-11-27 and 2026-11-28 by Chanhun Jeong.
 
 A (v,k,t) covering design is a set of k-element blocks from {1,…,v} such that every
 t-element subset of {1,…,v} is contained in at least one block. C(v,k,t) is the smallest
 possible number of blocks. In lottery terms: C(28,10,4) is the fewest 10-number tickets
 that guarantee every possible 4-number draw from 28 numbers is fully on some ticket.
 
-| Covering | New bound | Previous best | Previous holder (date) | Lower bound | File |
-|---|---|---|---|---|---|
-| C(23,11,5) | **≤ 128** | 131 | Jan de Heer and Steve Muir (2005-07-25) | 99 | [`covers/C_23_11_5_128.txt`](covers/C_23_11_5_128.txt) |
-| C(28,10,4) | **≤ 150** | 154 | Jan de Heer and Steve Muir (2008-10-01) | 110 | [`covers/C_28_10_4_150.txt`](covers/C_28_10_4_150.txt) |
-| C(30,13,5) | **≤ 249** | 250 | Franco Atzeni (2025-04-22) | 157 | [`covers/C_30_13_5_249.txt`](covers/C_30_13_5_249.txt) |
-| C(31,14,5) | **≤ 185** | 186 | Franco Atzeni (2026-11-23) | 129 | [`covers/C_31_14_5_185.txt`](covers/C_31_14_5_185.txt) |
-| C(55,8,3) | **≤ 571** | 572 | Sarg (2026-11-24) | 482 | [`covers/C_55_8_3_571.txt`](covers/C_55_8_3_571.txt) |
-| C(36,16,4) | **≤ 61** | 62 | Jan de Heer and Steve Muir (2008-12-30) | 48 | [`covers/C_36_16_4_61.txt`](covers/C_36_16_4_61.txt) |
-| C(79,15,3) | **≤ 236** | 238 | Terenzio Lazzarotto (2026-04-09) | 201 | [`covers/C_79_15_3_236.txt`](covers/C_79_15_3_236.txt) |
+| Covering | New bound | Previous best | File |
+|---|---|---|---|
+| C(55,8,3) | **≤ 571** | 572 | [`covers/C_55_8_3_571.txt`](covers/C_55_8_3_571.txt) |
+| C(61,12,3) | **≤ 215** | 216 | [`covers/C_61_12_3_215.txt`](covers/C_61_12_3_215.txt) |
+| C(79,15,3) | **≤ 236** | 238 | [`covers/C_79_15_3_236.txt`](covers/C_79_15_3_236.txt) |
+| C(28,10,4) | **≤ 150** | 154 | [`covers/C_28_10_4_150.txt`](covers/C_28_10_4_150.txt) |
+| C(36,16,4) | **≤ 60** | 62 | [`covers/C_36_16_4_60.txt`](covers/C_36_16_4_60.txt) |
+| C(37,9,4) | **≤ 726** | 738 | [`covers/C_37_9_4_726.txt`](covers/C_37_9_4_726.txt) |
+| C(54,23,4) | **≤ 71** | 72 | [`covers/C_54_23_4_71.txt`](covers/C_54_23_4_71.txt) |
+| C(89,18,4) | **≤ 1668** | 1672 | [`covers/C_89_18_4_1668.txt`](covers/C_89_18_4_1668.txt) |
+| C(23,11,5) | **≤ 128** | 131 | [`covers/C_23_11_5_128.txt`](covers/C_23_11_5_128.txt) |
+| C(27,9,5) | **≤ 951** | 957 | [`covers/C_27_9_5_951.txt`](covers/C_27_9_5_951.txt) |
+| C(30,13,5) | **≤ 247** | 250 | [`covers/C_30_13_5_247.txt`](covers/C_30_13_5_247.txt) |
+| C(31,14,5) | **≤ 185** | 186 | [`covers/C_31_14_5_185.txt`](covers/C_31_14_5_185.txt) |
+| C(54,18,5) | **≤ 951** | 957 | [`covers/C_54_18_5_951.txt`](covers/C_54_18_5_951.txt) |
+| C(72,25,5) | **≤ 756** | 757 | [`covers/C_72_25_5_756.txt`](covers/C_72_25_5_756.txt) |
+| C(73,25,5) | **≤ 758** | 759 | [`covers/C_73_25_5_758.txt`](covers/C_73_25_5_758.txt) |
+| C(81,23,5) | **≤ 2347** | 2349 | [`covers/C_81_23_5_2347.txt`](covers/C_81_23_5_2347.txt) |
+| C(82,23,5) | **≤ 2375** | 2386 | [`covers/C_82_23_5_2375.txt`](covers/C_82_23_5_2375.txt) |
+| C(83,23,5) | **≤ 2410** | 2420 | [`covers/C_83_23_5_2410.txt`](covers/C_83_23_5_2410.txt) |
+| C(94,24,5) | **≤ 2509** | 2510 | [`covers/C_94_24_5_2509.txt`](covers/C_94_24_5_2509.txt) |
+| C(19,10,6) | **≤ 229** | 230 | [`covers/C_19_10_6_229.txt`](covers/C_19_10_6_229.txt) |
+| C(22,14,7) | **≤ 128** | 129 | [`covers/C_22_14_7_128.txt`](covers/C_22_14_7_128.txt) |
+| C(25,14,7) | **≤ 373** | 377 | [`covers/C_25_14_7_373.txt`](covers/C_25_14_7_373.txt) |
+| C(23,15,8) | **≤ 198** | 202 | [`covers/C_23_15_8_198.txt`](covers/C_23_15_8_198.txt) |
+| C(36,25,8) | **≤ 127** | 128 | [`covers/C_36_25_8_127.txt`](covers/C_36_25_8_127.txt) |
+| C(41,24,8) | **≤ 612** | 613 | [`covers/C_41_24_8_612.txt`](covers/C_41_24_8_612.txt) |
+| C(42,24,8) | **≤ 732** | 738 | [`covers/C_42_24_8_732.txt`](covers/C_42_24_8_732.txt) |
 
-Previous values and lower bounds are those listed by the
-[Covering Repository](https://www.coveringrepository.com/systems.aspx), checked on
-2026-11-27 (09:10, 10:10, 11:05 and 11:55 UTC). (The La Jolla Covering Repository was frozen in March 2026 and its
-data continues there.)
+"Previous best" is the value in the current (v,k,t) table of the
+[Covering Repository](https://www.coveringrepository.com/systems.aspx), downloaded on
+2026-11-28 05:05 UTC. The repository lists the holder, date and lower bound of each record.
+(The La Jolla Covering Repository was frozen in March 2026 and its data continues there.)
 
 ## Verify
 
 Each file has one block per line, points numbered 1..v.
 
 ```sh
-python3 verify.py 23 11 5 covers/C_23_11_5_128.txt   # prints VALID (33649/33649 5-subsets covered)
-python3 verify.py 28 10 4 covers/C_28_10_4_150.txt   # prints VALID (20475/20475 4-subsets covered)
-python3 verify.py 30 13 5 covers/C_30_13_5_249.txt   # prints VALID (142506/142506 5-subsets covered)
-python3 verify.py 31 14 5 covers/C_31_14_5_185.txt   # prints VALID (169911/169911 5-subsets covered)
-python3 verify.py 36 16 4 covers/C_36_16_4_61.txt    # prints VALID (58905/58905 4-subsets covered)
-python3 verify.py 79 15 3 covers/C_79_15_3_236.txt   # prints VALID (79079/79079 3-subsets covered)
-python3 verify.py 55 8 3 covers/C_55_8_3_571.txt     # prints VALID (26235/26235 3-subsets covered)
+cc -O2 -o verify verify.c
+for f in covers/*.txt; do set -- $(basename "$f" .txt | tr _ ' '); ./verify $2 $3 $4 "$f"; done
 shasum -a 256 -c SHA256SUMS
 ```
 
-`verify.py` needs only the Python standard library. All covers were also checked with two
-other independently written checkers, including `scripts/verify.py` from
+`verify.c` keeps one bit per t-subset and checks all 26 files in a few seconds (the largest,
+C(42,24,8), has 118,030,185 8-subsets). `verify.py` applies the same rules with only the Python
+standard library, for example `python3 verify.py 28 10 4 covers/C_28_10_4_150.txt`, but it keeps
+every covered t-subset in memory and needs many GB for the large cases.
+
+Every cover was also checked by the search with two other independently written checkers,
+including `scripts/verify.py` from
 [covering-design-records](https://github.com/WynandVStaden/covering-design-records).
 
 ## Method
 
-All covers were obtained by shrinking archived La Jolla records with **wls2**, the weighted
-tabu local search by Wynand van Staden
+All covers were obtained by shrinking existing covers with **wls2**, the weighted tabu local
+search by Wynand van Staden
 ([covering-design-records](https://github.com/WynandVStaden/covering-design-records), MIT),
-run in shrink mode with several seeds:
+in shrink mode with several seeds, usually 120–540 s per run. The starting covers were the
+archived La Jolla records or earlier results of this search.
 
-- C(23,11,5): from the archived 131-block record to 130, then 128 (a further 330 s run).
-- C(28,10,4): from the archived 154-block record to 153, 151 (two seeds, 300 s each), then 150 (three seeds, 540 s each, all reached 150).
-- C(30,13,5): from the archived 250-block record to 249 (120 s).
-- C(31,14,5): from the archived 189-block record to 185 (120 s).
-- C(36,16,4): from the archived 62-block record to 61 (120 s).
-- C(79,15,3): from the archived 239-block record to 238, then 236 (a further 330 s run).
-- C(55,8,3): from the archived 573-block record to 571 (120 s).
-
-An earlier version of this repository (commit 7136f1c) listed C(28,10,4) ≤ 151; it is superseded by 150.
+Earlier versions of this repository listed C(28,10,4) ≤ 151 and C(30,13,5) ≤ 249
+(commit 7136f1c) and C(36,16,4) ≤ 61 (commit ec45e6c); they are superseded by the values above.
 
 The search was set up and run by AI agents (Claude) on a cloud workspace as part of an
 experiment in agent-driven search for open records; every result was re-verified as above.
@@ -68,4 +81,4 @@ Windows validator. This repository is the public, dated record of the results un
 
 ## License
 
-Covering data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). `verify.py`: MIT (see `LICENSE`).
+Covering data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). `verify.py` and `verify.c`: MIT (see `LICENSE`).
